@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Projeto BootStrap</title>
+
+	<link rel="stylesheet" type="text/css" href="../_vendor/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../_css/estilos.css"/>
+	<link rel="stylesheet" type="text/css" href="../_css/painel.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700i" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script type="text/javascript" src="https://oss;maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body >
+
+
+<!-- Menu da Aplicação   -->
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">DevMedia</a>
+    </div>
+  </div>
+  </nav>
+
+   
+<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="col-sm-12">
+        <div class="form-login">
+          <h2>Efetuar Login</h2>
+          <form>
+
+          <label class="sr-only" for="inputEmail">E-mail:</label>
+            <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1">@</span>
+              <input type="email" id="inputEmail" class="form-control" placeholder="Seu Email" aria-describedby="basic-addon1" required/>
+           </div>
+
+          <label class="sr-only" for="inputPassword">Senha:</label>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon2">X</span>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Sua Senha" aria-describedby="basic-addon2" required/>
+          </div>
+
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="S"  /> Lembre-me
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">
+            <span class="glyphicon glyphicon-ok"></span>  Logar
+          </button>
+
+          </form>
+        </div>
+      </div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../_vendor/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="../_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../_js/script.js"></script>
+</body>
+</html>

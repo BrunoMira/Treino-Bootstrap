@@ -1,0 +1,109 @@
+*{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+body{
+<!-- padding-top: 50px; -->
+}
+
+section{
+	padding-top: 30px;
+	padding-top: 15px;
+	min-height: 100vh;
+}
+
+footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: url(../_imagens/bgslider.jpg); 
+	background-color: white;
+	padding-top: 5px; 
+
+}
+
+section.section-contato{
+	min-height: auto;
+}
+.escalaCinza{
+	filter: grayscale(1); /* FireFox 35+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+	transition: filter 0.35s;
+}
+
+.escalaCinza:hover{
+	filter: grayscale(0); /* FireFox 35+ */
+	filter: none; /* IE6-9 */
+	-webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+.navbar-brand{
+	font-weight: 700;
+}
+
+.divslider{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-image: url(../_imagens/bgslider.jpg); 
+}
+
+.div-colorida {
+	background-image: url(../_imagens/bgslider.jpg);
+}
+
+.portfolio-item{
+	background: white;
+}
+
+.portfolio-item h4{
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.portfolio-row{
+	margin-bottom: 20px;
+}
+
+.portfolio-row:last-child{
+	margin-bottom: 0px;
+}
+
+textarea.form-control{
+	height: 170px;
+	margin-bottom: 15px;
+}
+
+.aviso{
+	padding: 15px;
+}
+
+.quemsomos-img{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.form-login{
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 10px;
+	background: #eee;
+}
+
+.panel{
+	margin-bottom: 0px;
+}
+
+.conteudo-painel{
+	background: white;
+	border-radius: 8px;
+	border: 1px solid #eee;
+	box-shadow: 2px 2px 5px #888;
+}
+
+.conteudo-painel-int{
+	padding: 8px;
+}
